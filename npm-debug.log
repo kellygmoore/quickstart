@@ -1,0 +1,956 @@
+0 info it worked if it ends with ok
+1 verbose cli [ '/usr/local/Cellar/node/4.2.1/bin/node',
+1 verbose cli   '/usr/local/bin/npm',
+1 verbose cli   'i',
+1 verbose cli   '@angular/platform-browser-dynamic' ]
+2 info using npm@2.14.7
+3 info using node@v4.2.1
+4 verbose install initial load of /Users/kellygarskemoore/angular2-seed/package.json
+5 warn package.json angular2-quickstart@1.0.0 No description
+6 warn package.json angular2-quickstart@1.0.0 No repository field.
+7 warn package.json angular2-quickstart@1.0.0 No README data
+8 verbose installManyTop reading scoped package data from /Users/kellygarskemoore/angular2-seed/node_modules/angular2/package.json
+9 verbose installManyTop reading scoped package data from /Users/kellygarskemoore/angular2-seed/node_modules/concurrently/package.json
+10 verbose installManyTop reading scoped package data from /Users/kellygarskemoore/angular2-seed/node_modules/es6-promise/package.json
+11 verbose installManyTop reading scoped package data from /Users/kellygarskemoore/angular2-seed/node_modules/es6-shim/package.json
+12 verbose installManyTop reading scoped package data from /Users/kellygarskemoore/angular2-seed/node_modules/lite-server/package.json
+13 verbose installManyTop reading scoped package data from /Users/kellygarskemoore/angular2-seed/node_modules/reflect-metadata/package.json
+14 verbose installManyTop reading scoped package data from /Users/kellygarskemoore/angular2-seed/node_modules/rxjs/package.json
+15 verbose installManyTop reading scoped package data from /Users/kellygarskemoore/angular2-seed/node_modules/systemjs/package.json
+16 verbose installManyTop reading scoped package data from /Users/kellygarskemoore/angular2-seed/node_modules/typescript/package.json
+17 verbose installManyTop reading scoped package data from /Users/kellygarskemoore/angular2-seed/node_modules/zone.js/package.json
+18 verbose installManyTop reading scoped package data from /Users/kellygarskemoore/angular2-seed/node_modules/@angular/common/package.json
+19 verbose installManyTop reading scoped package data from /Users/kellygarskemoore/angular2-seed/node_modules/@angular/core/package.json
+20 verbose installManyTop reading scoped package data from /Users/kellygarskemoore/angular2-seed/node_modules/@angular/forms/package.json
+21 verbose installManyTop reading scoped package data from /Users/kellygarskemoore/angular2-seed/node_modules/@angular/platform-browser/package.json
+22 verbose readDependencies loading dependencies from /Users/kellygarskemoore/angular2-seed/package.json
+23 silly cache add args [ '@angular/platform-browser-dynamic', null ]
+24 verbose cache add spec @angular/platform-browser-dynamic
+25 silly cache add parsed spec Result {
+25 silly cache add   raw: '@angular/platform-browser-dynamic',
+25 silly cache add   scope: '@angular',
+25 silly cache add   name: '@angular/platform-browser-dynamic',
+25 silly cache add   rawSpec: '',
+25 silly cache add   spec: '*',
+25 silly cache add   type: 'range' }
+26 silly addNamed @angular/platform-browser-dynamic@*
+27 verbose addNamed "*" is a valid semver range for @angular/platform-browser-dynamic
+28 silly addNameRange { name: '@angular/platform-browser-dynamic',
+28 silly addNameRange   range: '*',
+28 silly addNameRange   hasData: false }
+29 silly mapToRegistry name @angular/platform-browser-dynamic
+30 silly mapToRegistry scope (from package name) @angular
+31 verbose mapToRegistry no registry URL found in name for scope @angular
+32 silly mapToRegistry using default registry
+33 silly mapToRegistry registry https://registry.npmjs.org/
+34 silly mapToRegistry uri https://registry.npmjs.org/@angular%2fplatform-browser-dynamic
+35 verbose addNameRange registry:https://registry.npmjs.org/@angular%2fplatform-browser-dynamic not in flight; fetching
+36 verbose request uri https://registry.npmjs.org/@angular%2fplatform-browser-dynamic
+37 verbose request no auth needed
+38 info attempt registry request try #1 at 4:21:47 PM
+39 verbose request id d3365c8e851c4eab
+40 verbose etag "58893aa5-10c03"
+41 http request GET https://registry.npmjs.org/@angular%2fplatform-browser-dynamic
+42 http 200 https://registry.npmjs.org/@angular%2fplatform-browser-dynamic
+43 verbose headers { 'content-type': 'application/json',
+43 verbose headers   server: 'nginx/1.10.1',
+43 verbose headers   'last-modified': 'Thu, 09 Feb 2017 17:50:18 GMT',
+43 verbose headers   etag: 'W/"589cabda-122bd"',
+43 verbose headers   'content-encoding': 'gzip',
+43 verbose headers   'cache-control': 'max-age=0',
+43 verbose headers   'transfer-encoding': 'chunked',
+43 verbose headers   'accept-ranges': 'bytes',
+43 verbose headers   date: 'Fri, 17 Feb 2017 22:20:09 GMT',
+43 verbose headers   via: '1.1 varnish',
+43 verbose headers   age: '0',
+43 verbose headers   connection: 'keep-alive',
+43 verbose headers   'x-served-by': 'cache-ord1733-ORD',
+43 verbose headers   'x-cache': 'MISS',
+43 verbose headers   'x-cache-hits': '0',
+43 verbose headers   'x-timer': 'S1487370009.509926,VS0,VE427',
+43 verbose headers   vary: 'Accept-Encoding' }
+44 silly get cb [ 200,
+44 silly get   { 'content-type': 'application/json',
+44 silly get     server: 'nginx/1.10.1',
+44 silly get     'last-modified': 'Thu, 09 Feb 2017 17:50:18 GMT',
+44 silly get     etag: 'W/"589cabda-122bd"',
+44 silly get     'content-encoding': 'gzip',
+44 silly get     'cache-control': 'max-age=0',
+44 silly get     'transfer-encoding': 'chunked',
+44 silly get     'accept-ranges': 'bytes',
+44 silly get     date: 'Fri, 17 Feb 2017 22:20:09 GMT',
+44 silly get     via: '1.1 varnish',
+44 silly get     age: '0',
+44 silly get     connection: 'keep-alive',
+44 silly get     'x-served-by': 'cache-ord1733-ORD',
+44 silly get     'x-cache': 'MISS',
+44 silly get     'x-cache-hits': '0',
+44 silly get     'x-timer': 'S1487370009.509926,VS0,VE427',
+44 silly get     vary: 'Accept-Encoding' } ]
+45 verbose get saving @angular/platform-browser-dynamic to /Users/kellygarskemoore/.npm/registry.npmjs.org/_40angular_252fplatform-browser-dynamic/.cache.json
+46 silly addNameRange number 2 { name: '@angular/platform-browser-dynamic',
+46 silly addNameRange   range: '*',
+46 silly addNameRange   hasData: true }
+47 silly addNameRange versions [ '@angular/platform-browser-dynamic',
+47 silly addNameRange   [ '0.0.0-0',
+47 silly addNameRange     '0.0.0-1',
+47 silly addNameRange     '0.0.0-2',
+47 silly addNameRange     '0.0.0-3',
+47 silly addNameRange     '0.0.0-4',
+47 silly addNameRange     '0.0.0-5',
+47 silly addNameRange     '0.0.0-6',
+47 silly addNameRange     '0.0.0-7',
+47 silly addNameRange     '2.0.0-rc.0',
+47 silly addNameRange     '2.0.0-rc.1',
+47 silly addNameRange     '2.0.0-rc.2',
+47 silly addNameRange     '2.0.0-rc.3',
+47 silly addNameRange     '2.0.0-rc.4',
+47 silly addNameRange     '2.0.0-rc.5',
+47 silly addNameRange     '2.0.0-rc.6',
+47 silly addNameRange     '2.0.0-rc.7',
+47 silly addNameRange     '2.0.0',
+47 silly addNameRange     '2.0.1',
+47 silly addNameRange     '2.1.0-beta.0',
+47 silly addNameRange     '2.0.2',
+47 silly addNameRange     '2.1.0-rc.0',
+47 silly addNameRange     '2.1.0',
+47 silly addNameRange     '2.2.0-beta.0',
+47 silly addNameRange     '2.1.1',
+47 silly addNameRange     '2.2.0-beta.1',
+47 silly addNameRange     '2.1.2',
+47 silly addNameRange     '2.2.0-rc.0',
+47 silly addNameRange     '2.2.0',
+47 silly addNameRange     '2.2.1',
+47 silly addNameRange     '2.3.0-beta.0',
+47 silly addNameRange     '2.2.2',
+47 silly addNameRange     '2.3.0-beta.1',
+47 silly addNameRange     '2.2.3',
+47 silly addNameRange     '2.2.4',
+47 silly addNameRange     '2.3.0-rc.0',
+47 silly addNameRange     '2.3.0',
+47 silly addNameRange     '4.0.0-beta.0',
+47 silly addNameRange     '2.3.1',
+47 silly addNameRange     '2.4.0',
+47 silly addNameRange     '2.4.1',
+47 silly addNameRange     '4.0.0-beta.1',
+47 silly addNameRange     '4.0.0-beta.2',
+47 silly addNameRange     '2.4.2',
+47 silly addNameRange     '2.4.3',
+47 silly addNameRange     '4.0.0-beta.3',
+47 silly addNameRange     '2.4.4',
+47 silly addNameRange     '4.0.0-beta.4',
+47 silly addNameRange     '2.4.5',
+47 silly addNameRange     '4.0.0-beta.5',
+47 silly addNameRange     '2.4.6',
+47 silly addNameRange     '4.0.0-beta.6',
+47 silly addNameRange     '2.4.7',
+47 silly addNameRange     '4.0.0-beta.7' ] ]
+48 silly addNamed @angular/platform-browser-dynamic@2.4.7
+49 verbose addNamed "2.4.7" is a plain semver version for @angular/platform-browser-dynamic
+50 silly mapToRegistry name @angular/platform-browser-dynamic
+51 silly mapToRegistry scope (from package name) @angular
+52 verbose mapToRegistry no registry URL found in name for scope @angular
+53 silly mapToRegistry using default registry
+54 silly mapToRegistry registry https://registry.npmjs.org/
+55 silly mapToRegistry uri https://registry.npmjs.org/@angular%2fplatform-browser-dynamic
+56 verbose addRemoteTarball https://registry.npmjs.org/@angular/platform-browser-dynamic/-/platform-browser-dynamic-2.4.7.tgz not in flight; adding
+57 verbose addRemoteTarball [ 'https://registry.npmjs.org/@angular/platform-browser-dynamic/-/platform-browser-dynamic-2.4.7.tgz',
+57 verbose addRemoteTarball   '9632586f9ce596186be4c124c3ea0a4a74b27b46' ]
+58 info retry fetch attempt 1 at 4:21:48 PM
+59 info attempt registry request try #1 at 4:21:48 PM
+60 http fetch GET https://registry.npmjs.org/@angular/platform-browser-dynamic/-/platform-browser-dynamic-2.4.7.tgz
+61 http fetch 200 https://registry.npmjs.org/@angular/platform-browser-dynamic/-/platform-browser-dynamic-2.4.7.tgz
+62 silly fetchAndShaCheck shasum 9632586f9ce596186be4c124c3ea0a4a74b27b46
+63 verbose addTmpTarball /var/folders/yd/8jtcs66j3f3182jk0zt26l2c0000gn/T/npm-16364-24fed831/registry.npmjs.org/_40angular/platform-browser-dynamic/-/platform-browser-dynamic-2.4.7.tgz not in flight; adding
+64 verbose addTmpTarball already have metadata; skipping unpack for @angular/platform-browser-dynamic@2.4.7
+65 silly cache afterAdd @angular/platform-browser-dynamic@2.4.7
+66 verbose afterAdd /Users/kellygarskemoore/.npm/@angular/platform-browser-dynamic/2.4.7/package/package.json not in flight; writing
+67 verbose afterAdd /Users/kellygarskemoore/.npm/@angular/platform-browser-dynamic/2.4.7/package/package.json written
+68 silly install resolved [ { name: '@angular/platform-browser-dynamic',
+68 silly install resolved     version: '2.4.7',
+68 silly install resolved     description: 'Angular - library for using Angular in a web browser with JIT compilation',
+68 silly install resolved     main: 'bundles/platform-browser-dynamic.umd.js',
+68 silly install resolved     module: 'index.js',
+68 silly install resolved     typings: 'index.d.ts',
+68 silly install resolved     author: { name: 'angular' },
+68 silly install resolved     license: 'MIT',
+68 silly install resolved     peerDependencies:
+68 silly install resolved      { '@angular/core': '2.4.7',
+68 silly install resolved        '@angular/common': '2.4.7',
+68 silly install resolved        '@angular/compiler': '2.4.7',
+68 silly install resolved        '@angular/platform-browser': '2.4.7' },
+68 silly install resolved     repository:
+68 silly install resolved      { type: 'git',
+68 silly install resolved        url: 'git+https://github.com/angular/angular.git' },
+68 silly install resolved     bugs: { url: 'https://github.com/angular/angular/issues' },
+68 silly install resolved     homepage: 'https://github.com/angular/angular#readme',
+68 silly install resolved     _id: '@angular/platform-browser-dynamic@2.4.7',
+68 silly install resolved     scripts: {},
+68 silly install resolved     _shasum: '9632586f9ce596186be4c124c3ea0a4a74b27b46',
+68 silly install resolved     _from: '@angular/platform-browser-dynamic@*',
+68 silly install resolved     _resolved: 'https://registry.npmjs.org/@angular/platform-browser-dynamic/-/platform-browser-dynamic-2.4.7.tgz',
+68 silly install resolved     _npmVersion: '3.10.8',
+68 silly install resolved     _nodeVersion: '6.9.1',
+68 silly install resolved     _npmUser: { name: 'angular', email: 'angular-core+npm@google.com' },
+68 silly install resolved     dist:
+68 silly install resolved      { shasum: '9632586f9ce596186be4c124c3ea0a4a74b27b46',
+68 silly install resolved        tarball: 'https://registry.npmjs.org/@angular/platform-browser-dynamic/-/platform-browser-dynamic-2.4.7.tgz' },
+68 silly install resolved     maintainers: [ [Object] ],
+68 silly install resolved     _npmOperationalInternal:
+68 silly install resolved      { host: 'packages-12-west.internal.npmjs.com',
+68 silly install resolved        tmp: 'tmp/platform-browser-dynamic-2.4.7.tgz_1486615234258_0.652232006425038' },
+68 silly install resolved     directories: {} } ]
+69 info install @angular/platform-browser-dynamic@2.4.7 into /Users/kellygarskemoore/angular2-seed
+70 info installOne @angular/platform-browser-dynamic@2.4.7
+71 verbose installOne of @angular/platform-browser-dynamic to /Users/kellygarskemoore/angular2-seed not in flight; installing
+72 verbose lock using /Users/kellygarskemoore/.npm/_locks/angular-platform-browser-6044161f7d799d9e.lock for /Users/kellygarskemoore/angular2-seed/node_modules/@angular/platform-browser-dynamic
+73 silly install write writing @angular/platform-browser-dynamic 2.4.7 to /Users/kellygarskemoore/angular2-seed/node_modules/@angular/platform-browser-dynamic
+74 verbose unbuild node_modules/@angular/platform-browser-dynamic
+75 silly gentlyRm /Users/kellygarskemoore/angular2-seed/node_modules/@angular/platform-browser-dynamic is being purged from base /Users/kellygarskemoore/angular2-seed
+76 verbose gentlyRm don't care about contents; nuking /Users/kellygarskemoore/angular2-seed/node_modules/@angular/platform-browser-dynamic
+77 verbose tar unpack /Users/kellygarskemoore/.npm/@angular/platform-browser-dynamic/2.4.7/package.tgz
+78 verbose tar unpacking to /Users/kellygarskemoore/angular2-seed/node_modules/@angular/platform-browser-dynamic
+79 silly gentlyRm /Users/kellygarskemoore/angular2-seed/node_modules/@angular/platform-browser-dynamic is being purged
+80 verbose gentlyRm don't care about contents; nuking /Users/kellygarskemoore/angular2-seed/node_modules/@angular/platform-browser-dynamic
+81 silly gunzTarPerm modes [ '755', '644' ]
+82 silly gunzTarPerm extractEntry package.json
+83 silly gunzTarPerm extractEntry README.md
+84 silly gunzTarPerm extractEntry index.js
+85 silly gunzTarPerm extractEntry bundles/platform-browser-dynamic-testing.umd.js
+86 silly gunzTarPerm extractEntry bundles/platform-browser-dynamic.umd.js
+87 silly gunzTarPerm extractEntry bundles/platform-browser-dynamic.umd.min.js
+88 silly gunzTarPerm extractEntry index.d.ts
+89 silly gunzTarPerm extractEntry index.js.map
+90 silly gunzTarPerm extractEntry index.metadata.json
+91 silly gunzTarPerm extractEntry src/platform-browser-dynamic.js
+92 silly gunzTarPerm extractEntry src/platform_providers.js
+93 silly gunzTarPerm extractEntry src/private_export.js
+94 silly gunzTarPerm extractEntry src/private_import_platform-browser.js
+95 silly gunzTarPerm extractEntry src/version.js
+96 silly gunzTarPerm extractEntry src/private_export.js.map
+97 silly gunzTarPerm extractEntry src/facade/lang.js
+98 silly gunzTarPerm extractEntry src/facade/lang.d.ts
+99 silly gunzTarPerm extractEntry src/facade/lang.js.map
+100 silly gunzTarPerm extractEntry src/facade/lang.metadata.json
+101 silly gunzTarPerm extractEntry src/platform_providers.js.map
+102 silly gunzTarPerm extractEntry src/platform_providers.metadata.json
+103 silly gunzTarPerm extractEntry src/private_export.d.ts
+104 silly gunzTarPerm extractEntry src/platform-browser-dynamic.js.map
+105 silly gunzTarPerm extractEntry src/platform-browser-dynamic.d.ts
+106 silly gunzTarPerm extractEntry src/private_export.metadata.json
+107 silly gunzTarPerm extractEntry src/private_import_platform-browser.d.ts
+108 silly gunzTarPerm extractEntry src/platform-browser-dynamic.metadata.json
+109 silly gunzTarPerm extractEntry src/private_import_platform-browser.js.map
+110 silly gunzTarPerm extractEntry src/private_import_platform-browser.metadata.json
+111 silly gunzTarPerm extractEntry src/resource_loader/resource_loader_cache.js
+112 silly gunzTarPerm extractEntry src/resource_loader/resource_loader_impl.js
+113 silly gunzTarPerm extractEntry src/resource_loader/resource_loader_cache.d.ts
+114 silly gunzTarPerm extractEntry src/resource_loader/resource_loader_cache.js.map
+115 silly gunzTarPerm extractEntry src/resource_loader/resource_loader_cache.metadata.json
+116 silly gunzTarPerm extractEntry src/resource_loader/resource_loader_impl.d.ts
+117 silly gunzTarPerm extractEntry src/resource_loader/resource_loader_impl.js.map
+118 silly gunzTarPerm extractEntry src/resource_loader/resource_loader_impl.metadata.json
+119 silly gunzTarPerm extractEntry src/version.d.ts
+120 silly gunzTarPerm extractEntry src/platform_providers.d.ts
+121 silly gunzTarPerm extractEntry src/version.js.map
+122 silly gunzTarPerm extractEntry src/version.metadata.json
+123 silly gunzTarPerm extractEntry testing/package.json
+124 silly gunzTarPerm extractEntry testing/private_export_testing.js
+125 silly gunzTarPerm extractEntry testing/index.js
+126 silly gunzTarPerm extractEntry testing/dom_test_component_renderer.js
+127 silly gunzTarPerm extractEntry testing/private_import_platform-browser-dynamic.js
+128 silly gunzTarPerm extractEntry testing/private_import_platform-browser.js
+129 silly gunzTarPerm extractEntry testing/index.js.map
+130 silly gunzTarPerm extractEntry testing/index.metadata.json
+131 silly gunzTarPerm extractEntry testing/dom_test_component_renderer.js.map
+132 silly gunzTarPerm extractEntry testing/private_export_testing.d.ts
+133 silly gunzTarPerm extractEntry testing/dom_test_component_renderer.metadata.json
+134 silly gunzTarPerm extractEntry testing/private_export_testing.js.map
+135 silly gunzTarPerm extractEntry testing/private_export_testing.metadata.json
+136 silly gunzTarPerm extractEntry testing/private_import_platform-browser-dynamic.d.ts
+137 silly gunzTarPerm extractEntry testing/index.d.ts
+138 silly gunzTarPerm extractEntry testing/private_import_platform-browser-dynamic.js.map
+139 silly gunzTarPerm extractEntry testing/private_import_platform-browser-dynamic.metadata.json
+140 silly gunzTarPerm extractEntry testing/private_import_platform-browser.d.ts
+141 silly gunzTarPerm extractEntry testing/dom_test_component_renderer.d.ts
+142 silly gunzTarPerm extractEntry testing/private_import_platform-browser.js.map
+143 silly gunzTarPerm extractEntry testing/private_import_platform-browser.metadata.json
+144 verbose write writing to /Users/kellygarskemoore/angular2-seed/node_modules/@angular/platform-browser-dynamic/package.json
+145 info preinstall @angular/platform-browser-dynamic@2.4.7
+146 verbose readDependencies loading dependencies from /Users/kellygarskemoore/angular2-seed/node_modules/@angular/platform-browser-dynamic/package.json
+147 silly prepareForInstallMany adding @angular/compiler@2.4.7 from @angular/platform-browser-dynamic peerDependencies
+148 warn peerDependencies The peer dependency @angular/compiler@2.4.7 included from @angular/platform-browser-dynamic will no
+149 warn peerDependencies longer be automatically installed to fulfill the peerDependency
+150 warn peerDependencies in npm 3+. Your application will need to depend on it explicitly.
+151 verbose readDependencies loading dependencies from /Users/kellygarskemoore/angular2-seed/node_modules/@angular/platform-browser-dynamic/package.json
+152 silly install resolved []
+153 verbose about to build /Users/kellygarskemoore/angular2-seed/node_modules/@angular/platform-browser-dynamic
+154 info build /Users/kellygarskemoore/angular2-seed/node_modules/@angular/platform-browser-dynamic
+155 info linkStuff @angular/platform-browser-dynamic@2.4.7
+156 silly linkStuff @angular/platform-browser-dynamic@2.4.7 has /Users/kellygarskemoore/angular2-seed/node_modules as its parent node_modules
+157 verbose linkBins @angular/platform-browser-dynamic@2.4.7
+158 verbose linkMans @angular/platform-browser-dynamic@2.4.7
+159 verbose rebuildBundles @angular/platform-browser-dynamic@2.4.7
+160 info install @angular/platform-browser-dynamic@2.4.7
+161 info postinstall @angular/platform-browser-dynamic@2.4.7
+162 verbose readDependencies loading dependencies from /Users/kellygarskemoore/angular2-seed/package.json
+163 verbose targetResolver reading package data from /Users/kellygarskemoore/angular2-seed/node_modules/angular2/package.json
+164 verbose targetResolver reading package data from /Users/kellygarskemoore/angular2-seed/node_modules/concurrently/package.json
+165 verbose targetResolver reading package data from /Users/kellygarskemoore/angular2-seed/node_modules/es6-promise/package.json
+166 verbose targetResolver reading package data from /Users/kellygarskemoore/angular2-seed/node_modules/es6-shim/package.json
+167 verbose targetResolver reading package data from /Users/kellygarskemoore/angular2-seed/node_modules/lite-server/package.json
+168 verbose targetResolver reading package data from /Users/kellygarskemoore/angular2-seed/node_modules/reflect-metadata/package.json
+169 verbose targetResolver reading package data from /Users/kellygarskemoore/angular2-seed/node_modules/rxjs/package.json
+170 verbose targetResolver reading package data from /Users/kellygarskemoore/angular2-seed/node_modules/systemjs/package.json
+171 verbose targetResolver reading package data from /Users/kellygarskemoore/angular2-seed/node_modules/typescript/package.json
+172 verbose targetResolver reading package data from /Users/kellygarskemoore/angular2-seed/node_modules/zone.js/package.json
+173 verbose targetResolver reading package data from /Users/kellygarskemoore/angular2-seed/node_modules/@angular/common/package.json
+174 verbose targetResolver reading package data from /Users/kellygarskemoore/angular2-seed/node_modules/@angular/core/package.json
+175 verbose targetResolver reading package data from /Users/kellygarskemoore/angular2-seed/node_modules/@angular/forms/package.json
+176 verbose targetResolver reading package data from /Users/kellygarskemoore/angular2-seed/node_modules/@angular/platform-browser/package.json
+177 verbose targetResolver reading package data from /Users/kellygarskemoore/angular2-seed/node_modules/@angular/platform-browser-dynamic/package.json
+178 verbose targetResolver reading package data from /Users/kellygarskemoore/angular2-seed/node_modules/.bin/concurrent/package.json
+179 verbose targetResolver reading package data from /Users/kellygarskemoore/angular2-seed/node_modules/.bin/concurrently/package.json
+180 verbose targetResolver reading package data from /Users/kellygarskemoore/angular2-seed/node_modules/.bin/lite-server/package.json
+181 verbose targetResolver reading package data from /Users/kellygarskemoore/angular2-seed/node_modules/.bin/tsc/package.json
+182 verbose targetResolver reading package data from /Users/kellygarskemoore/angular2-seed/node_modules/.bin/tsserver/package.json
+183 silly cache add args [ '@angular/compiler@2.4.7', null ]
+184 verbose cache add spec @angular/compiler@2.4.7
+185 silly cache add parsed spec Result {
+185 silly cache add   raw: '@angular/compiler@2.4.7',
+185 silly cache add   scope: '@angular',
+185 silly cache add   name: '@angular/compiler',
+185 silly cache add   rawSpec: '2.4.7',
+185 silly cache add   spec: '2.4.7',
+185 silly cache add   type: 'version' }
+186 silly addNamed @angular/compiler@2.4.7
+187 verbose addNamed "2.4.7" is a plain semver version for @angular/compiler
+188 silly mapToRegistry name @angular/compiler
+189 silly mapToRegistry scope (from package name) @angular
+190 verbose mapToRegistry no registry URL found in name for scope @angular
+191 silly mapToRegistry using default registry
+192 silly mapToRegistry registry https://registry.npmjs.org/
+193 silly mapToRegistry uri https://registry.npmjs.org/@angular%2fcompiler
+194 verbose addNameVersion registry:https://registry.npmjs.org/@angular%2fcompiler not in flight; fetching
+195 verbose request uri https://registry.npmjs.org/@angular%2fcompiler
+196 verbose request no auth needed
+197 info attempt registry request try #1 at 4:21:49 PM
+198 verbose etag "58893a91-db9c"
+199 http request GET https://registry.npmjs.org/@angular%2fcompiler
+200 http 200 https://registry.npmjs.org/@angular%2fcompiler
+201 verbose headers { 'content-type': 'application/json',
+201 verbose headers   server: 'nginx/1.10.1',
+201 verbose headers   'last-modified': 'Thu, 09 Feb 2017 17:49:59 GMT',
+201 verbose headers   etag: 'W/"589cabc7-ee16"',
+201 verbose headers   'content-encoding': 'gzip',
+201 verbose headers   'cache-control': 'max-age=0',
+201 verbose headers   'transfer-encoding': 'chunked',
+201 verbose headers   'accept-ranges': 'bytes',
+201 verbose headers   date: 'Fri, 17 Feb 2017 22:20:11 GMT',
+201 verbose headers   via: '1.1 varnish',
+201 verbose headers   age: '0',
+201 verbose headers   connection: 'keep-alive',
+201 verbose headers   'x-served-by': 'cache-ord1747-ORD',
+201 verbose headers   'x-cache': 'MISS',
+201 verbose headers   'x-cache-hits': '0',
+201 verbose headers   'x-timer': 'S1487370010.894101,VS0,VE416',
+201 verbose headers   vary: 'Accept-Encoding' }
+202 silly get cb [ 200,
+202 silly get   { 'content-type': 'application/json',
+202 silly get     server: 'nginx/1.10.1',
+202 silly get     'last-modified': 'Thu, 09 Feb 2017 17:49:59 GMT',
+202 silly get     etag: 'W/"589cabc7-ee16"',
+202 silly get     'content-encoding': 'gzip',
+202 silly get     'cache-control': 'max-age=0',
+202 silly get     'transfer-encoding': 'chunked',
+202 silly get     'accept-ranges': 'bytes',
+202 silly get     date: 'Fri, 17 Feb 2017 22:20:11 GMT',
+202 silly get     via: '1.1 varnish',
+202 silly get     age: '0',
+202 silly get     connection: 'keep-alive',
+202 silly get     'x-served-by': 'cache-ord1747-ORD',
+202 silly get     'x-cache': 'MISS',
+202 silly get     'x-cache-hits': '0',
+202 silly get     'x-timer': 'S1487370010.894101,VS0,VE416',
+202 silly get     vary: 'Accept-Encoding' } ]
+203 verbose get saving @angular/compiler to /Users/kellygarskemoore/.npm/registry.npmjs.org/_40angular_252fcompiler/.cache.json
+204 silly mapToRegistry name @angular/compiler
+205 silly mapToRegistry scope (from package name) @angular
+206 verbose mapToRegistry no registry URL found in name for scope @angular
+207 silly mapToRegistry using default registry
+208 silly mapToRegistry registry https://registry.npmjs.org/
+209 silly mapToRegistry uri https://registry.npmjs.org/@angular%2fcompiler
+210 verbose addRemoteTarball https://registry.npmjs.org/@angular/compiler/-/compiler-2.4.7.tgz not in flight; adding
+211 verbose addRemoteTarball [ 'https://registry.npmjs.org/@angular/compiler/-/compiler-2.4.7.tgz',
+211 verbose addRemoteTarball   '008c1f0d1409c46fbba215fe8ab0d886252c7ff0' ]
+212 info retry fetch attempt 1 at 4:21:49 PM
+213 info attempt registry request try #1 at 4:21:49 PM
+214 http fetch GET https://registry.npmjs.org/@angular/compiler/-/compiler-2.4.7.tgz
+215 http fetch 200 https://registry.npmjs.org/@angular/compiler/-/compiler-2.4.7.tgz
+216 silly fetchAndShaCheck shasum 008c1f0d1409c46fbba215fe8ab0d886252c7ff0
+217 verbose addTmpTarball /var/folders/yd/8jtcs66j3f3182jk0zt26l2c0000gn/T/npm-16364-24fed831/registry.npmjs.org/_40angular/compiler/-/compiler-2.4.7.tgz not in flight; adding
+218 verbose addTmpTarball already have metadata; skipping unpack for @angular/compiler@2.4.7
+219 silly cache afterAdd @angular/compiler@2.4.7
+220 verbose afterAdd /Users/kellygarskemoore/.npm/@angular/compiler/2.4.7/package/package.json not in flight; writing
+221 verbose afterAdd /Users/kellygarskemoore/.npm/@angular/compiler/2.4.7/package/package.json written
+222 silly install resolved [ { name: '@angular/compiler',
+222 silly install resolved     version: '2.4.7',
+222 silly install resolved     description: 'Angular - the compiler library',
+222 silly install resolved     main: 'bundles/compiler.umd.js',
+222 silly install resolved     module: 'index.js',
+222 silly install resolved     typings: 'index.d.ts',
+222 silly install resolved     author: { name: 'angular' },
+222 silly install resolved     license: 'MIT',
+222 silly install resolved     peerDependencies: { '@angular/core': '2.4.7' },
+222 silly install resolved     repository:
+222 silly install resolved      { type: 'git',
+222 silly install resolved        url: 'git+https://github.com/angular/angular.git' },
+222 silly install resolved     bugs: { url: 'https://github.com/angular/angular/issues' },
+222 silly install resolved     homepage: 'https://github.com/angular/angular#readme',
+222 silly install resolved     _id: '@angular/compiler@2.4.7',
+222 silly install resolved     scripts: {},
+222 silly install resolved     _shasum: '008c1f0d1409c46fbba215fe8ab0d886252c7ff0',
+222 silly install resolved     _from: '@angular/compiler@2.4.7',
+222 silly install resolved     _resolved: 'https://registry.npmjs.org/@angular/compiler/-/compiler-2.4.7.tgz',
+222 silly install resolved     _npmVersion: '3.10.8',
+222 silly install resolved     _nodeVersion: '6.9.1',
+222 silly install resolved     _npmUser: { name: 'angular', email: 'angular-core+npm@google.com' },
+222 silly install resolved     dist:
+222 silly install resolved      { shasum: '008c1f0d1409c46fbba215fe8ab0d886252c7ff0',
+222 silly install resolved        tarball: 'https://registry.npmjs.org/@angular/compiler/-/compiler-2.4.7.tgz' },
+222 silly install resolved     maintainers: [ [Object] ],
+222 silly install resolved     _npmOperationalInternal:
+222 silly install resolved      { host: 'packages-18-east.internal.npmjs.com',
+222 silly install resolved        tmp: 'tmp/compiler-2.4.7.tgz_1486615216597_0.5917918337509036' },
+222 silly install resolved     directories: {} } ]
+223 info install @angular/compiler@2.4.7 into /Users/kellygarskemoore/angular2-seed
+224 info installOne @angular/compiler@2.4.7
+225 verbose installOne of @angular/compiler to /Users/kellygarskemoore/angular2-seed not in flight; installing
+226 verbose lock using /Users/kellygarskemoore/.npm/_locks/angular-compiler-a3baf191063062e0.lock for /Users/kellygarskemoore/angular2-seed/node_modules/@angular/compiler
+227 silly install write writing @angular/compiler 2.4.7 to /Users/kellygarskemoore/angular2-seed/node_modules/@angular/compiler
+228 verbose unbuild node_modules/@angular/compiler
+229 silly gentlyRm /Users/kellygarskemoore/angular2-seed/node_modules/@angular/compiler is being purged from base /Users/kellygarskemoore/angular2-seed
+230 verbose gentlyRm don't care about contents; nuking /Users/kellygarskemoore/angular2-seed/node_modules/@angular/compiler
+231 verbose tar unpack /Users/kellygarskemoore/.npm/@angular/compiler/2.4.7/package.tgz
+232 verbose tar unpacking to /Users/kellygarskemoore/angular2-seed/node_modules/@angular/compiler
+233 silly gentlyRm /Users/kellygarskemoore/angular2-seed/node_modules/@angular/compiler is being purged
+234 verbose gentlyRm don't care about contents; nuking /Users/kellygarskemoore/angular2-seed/node_modules/@angular/compiler
+235 silly gunzTarPerm modes [ '755', '644' ]
+236 silly gunzTarPerm extractEntry package.json
+237 silly gunzTarPerm extractEntry README.md
+238 silly gunzTarPerm extractEntry index.js
+239 silly gunzTarPerm extractEntry bundles/compiler-testing.umd.js
+240 silly gunzTarPerm extractEntry bundles/compiler.umd.js
+241 silly gunzTarPerm extractEntry bundles/compiler.umd.min.js
+242 silly gunzTarPerm extractEntry index.d.ts
+243 silly gunzTarPerm extractEntry index.js.map
+244 silly gunzTarPerm extractEntry index.metadata.json
+245 silly gunzTarPerm extractEntry src/version.js
+246 silly gunzTarPerm extractEntry src/lifecycle_reflector.js
+247 silly gunzTarPerm extractEntry src/metadata_resolver.js
+248 silly gunzTarPerm extractEntry src/ng_module_compiler.js
+249 silly gunzTarPerm extractEntry src/injectable.js
+250 silly gunzTarPerm extractEntry src/parse_util.js
+251 silly gunzTarPerm extractEntry src/pipe_resolver.js
+252 silly gunzTarPerm extractEntry src/private_import_core.js
+253 silly gunzTarPerm extractEntry src/provider_analyzer.js
+254 silly gunzTarPerm extractEntry src/resource_loader.js
+255 silly gunzTarPerm extractEntry src/identifiers.js
+256 silly gunzTarPerm extractEntry src/selector.js
+257 silly gunzTarPerm extractEntry src/directive_wrapper_compiler.js
+258 silly gunzTarPerm extractEntry src/shadow_css.js
+259 silly gunzTarPerm extractEntry src/directive_resolver.js
+260 silly gunzTarPerm extractEntry src/style_compiler.js
+261 silly gunzTarPerm extractEntry src/directive_normalizer.js
+262 silly gunzTarPerm extractEntry src/style_url_resolver.js
+263 silly gunzTarPerm extractEntry src/config.js
+264 silly gunzTarPerm extractEntry src/summary_resolver.js
+265 silly gunzTarPerm extractEntry src/compile_metadata.js
+266 silly gunzTarPerm extractEntry src/url_resolver.js
+267 silly gunzTarPerm extractEntry src/chars.js
+268 silly gunzTarPerm extractEntry src/util.js
+269 silly gunzTarPerm extractEntry src/assertions.js
+270 silly gunzTarPerm extractEntry src/ng_module_resolver.js
+271 silly gunzTarPerm extractEntry src/ng_module_resolver.js.map
+272 silly gunzTarPerm extractEntry src/directive_wrapper_compiler.d.ts
+273 silly gunzTarPerm extractEntry src/assertions.d.ts
+274 silly gunzTarPerm extractEntry src/directive_wrapper_compiler.js.map
+275 silly gunzTarPerm extractEntry src/directive_wrapper_compiler.metadata.json
+276 silly gunzTarPerm extractEntry src/expression_parser/lexer.js
+277 silly gunzTarPerm extractEntry src/expression_parser/ast.js
+278 silly gunzTarPerm extractEntry src/expression_parser/parser.js
+279 silly gunzTarPerm extractEntry src/expression_parser/lexer.js.map
+280 silly gunzTarPerm extractEntry src/expression_parser/lexer.d.ts
+281 silly gunzTarPerm extractEntry src/expression_parser/ast.d.ts
+282 silly gunzTarPerm extractEntry src/expression_parser/ast.js.map
+283 silly gunzTarPerm extractEntry src/expression_parser/lexer.metadata.json
+284 silly gunzTarPerm extractEntry src/expression_parser/parser.d.ts
+285 silly gunzTarPerm extractEntry src/expression_parser/ast.metadata.json
+286 silly gunzTarPerm extractEntry src/expression_parser/parser.js.map
+287 silly gunzTarPerm extractEntry src/expression_parser/parser.metadata.json
+288 silly gunzTarPerm extractEntry src/facade/errors.js
+289 silly gunzTarPerm extractEntry src/facade/collection.js
+290 silly gunzTarPerm extractEntry src/facade/lang.js
+291 silly gunzTarPerm extractEntry src/facade/errors.js.map
+292 silly gunzTarPerm extractEntry src/facade/errors.d.ts
+293 silly gunzTarPerm extractEntry src/facade/collection.d.ts
+294 silly gunzTarPerm extractEntry src/facade/collection.js.map
+295 silly gunzTarPerm extractEntry src/facade/errors.metadata.json
+296 silly gunzTarPerm extractEntry src/facade/lang.d.ts
+297 silly gunzTarPerm extractEntry src/facade/collection.metadata.json
+298 silly gunzTarPerm extractEntry src/facade/lang.js.map
+299 silly gunzTarPerm extractEntry src/facade/lang.metadata.json
+300 silly gunzTarPerm extractEntry src/i18n/translation_bundle.js
+301 silly gunzTarPerm extractEntry src/i18n/extractor_merger.js
+302 silly gunzTarPerm extractEntry src/i18n/i18n_ast.js
+303 silly gunzTarPerm extractEntry src/i18n/i18n_html_parser.js
+304 silly gunzTarPerm extractEntry src/i18n/extractor.js
+305 silly gunzTarPerm extractEntry src/i18n/i18n_parser.js
+306 silly gunzTarPerm extractEntry src/i18n/index.js
+307 silly gunzTarPerm extractEntry src/i18n/message_bundle.js
+308 silly gunzTarPerm extractEntry src/i18n/parse_util.js
+309 silly gunzTarPerm extractEntry src/i18n/digest.js
+310 silly gunzTarPerm extractEntry src/i18n/i18n_parser.d.ts
+311 silly gunzTarPerm extractEntry src/i18n/extractor_merger.metadata.json
+312 silly gunzTarPerm extractEntry src/i18n/i18n_ast.d.ts
+313 silly gunzTarPerm extractEntry src/i18n/digest.metadata.json
+314 silly gunzTarPerm extractEntry src/i18n/i18n_ast.js.map
+315 silly gunzTarPerm extractEntry src/i18n/i18n_ast.metadata.json
+316 silly gunzTarPerm extractEntry src/i18n/i18n_html_parser.d.ts
+317 silly gunzTarPerm extractEntry src/i18n/extractor.d.ts
+318 silly gunzTarPerm extractEntry src/i18n/i18n_html_parser.js.map
+319 silly gunzTarPerm extractEntry src/i18n/i18n_html_parser.metadata.json
+320 silly gunzTarPerm extractEntry src/i18n/digest.d.ts
+321 silly gunzTarPerm extractEntry src/i18n/extractor.js.map
+322 silly gunzTarPerm extractEntry src/i18n/i18n_parser.js.map
+323 silly gunzTarPerm extractEntry src/i18n/i18n_parser.metadata.json
+324 silly gunzTarPerm extractEntry src/i18n/index.d.ts
+325 silly gunzTarPerm extractEntry src/i18n/extractor.metadata.json
+326 silly gunzTarPerm extractEntry src/i18n/index.js.map
+327 silly gunzTarPerm extractEntry src/i18n/index.metadata.json
+328 silly gunzTarPerm extractEntry src/i18n/message_bundle.d.ts
+329 silly gunzTarPerm extractEntry src/i18n/extractor_merger.d.ts
+330 silly gunzTarPerm extractEntry src/i18n/message_bundle.js.map
+331 silly gunzTarPerm extractEntry src/i18n/message_bundle.metadata.json
+332 silly gunzTarPerm extractEntry src/i18n/parse_util.d.ts
+333 silly gunzTarPerm extractEntry src/i18n/digest.js.map
+334 silly gunzTarPerm extractEntry src/i18n/parse_util.js.map
+335 silly gunzTarPerm extractEntry src/i18n/parse_util.metadata.json
+336 silly gunzTarPerm extractEntry src/i18n/serializers/serializer.js
+337 silly gunzTarPerm extractEntry src/i18n/serializers/xliff.js
+338 silly gunzTarPerm extractEntry src/i18n/serializers/placeholder.js
+339 silly gunzTarPerm extractEntry src/i18n/serializers/xmb.js
+340 silly gunzTarPerm extractEntry src/i18n/serializers/xml_helper.js
+341 silly gunzTarPerm extractEntry src/i18n/serializers/xtb.js
+342 silly gunzTarPerm extractEntry src/i18n/serializers/xmb.d.ts
+343 silly gunzTarPerm extractEntry src/i18n/serializers/serializer.metadata.json
+344 silly gunzTarPerm extractEntry src/i18n/serializers/xliff.d.ts
+345 silly gunzTarPerm extractEntry src/i18n/serializers/placeholder.js.map
+346 silly gunzTarPerm extractEntry src/i18n/serializers/xliff.js.map
+347 silly gunzTarPerm extractEntry src/i18n/serializers/xliff.metadata.json
+348 silly gunzTarPerm extractEntry src/i18n/serializers/placeholder.metadata.json
+349 silly gunzTarPerm extractEntry src/i18n/serializers/serializer.d.ts
+350 silly gunzTarPerm extractEntry src/i18n/serializers/xmb.js.map
+351 silly gunzTarPerm extractEntry src/i18n/serializers/xmb.metadata.json
+352 silly gunzTarPerm extractEntry src/i18n/serializers/xml_helper.d.ts
+353 silly gunzTarPerm extractEntry src/i18n/serializers/placeholder.d.ts
+354 silly gunzTarPerm extractEntry src/i18n/serializers/xml_helper.js.map
+355 silly gunzTarPerm extractEntry src/i18n/serializers/xml_helper.metadata.json
+356 silly gunzTarPerm extractEntry src/i18n/serializers/xtb.d.ts
+357 silly gunzTarPerm extractEntry src/i18n/serializers/serializer.js.map
+358 silly gunzTarPerm extractEntry src/i18n/serializers/xtb.js.map
+359 silly gunzTarPerm extractEntry src/i18n/serializers/xtb.metadata.json
+360 silly gunzTarPerm extractEntry src/i18n/translation_bundle.d.ts
+361 silly gunzTarPerm extractEntry src/i18n/extractor_merger.js.map
+362 silly gunzTarPerm extractEntry src/i18n/translation_bundle.js.map
+363 silly gunzTarPerm extractEntry src/i18n/translation_bundle.metadata.json
+364 silly gunzTarPerm extractEntry src/identifiers.d.ts
+365 silly gunzTarPerm extractEntry src/chars.js.map
+366 silly gunzTarPerm extractEntry src/identifiers.js.map
+367 silly gunzTarPerm extractEntry src/identifiers.metadata.json
+368 silly gunzTarPerm extractEntry src/injectable.d.ts
+369 silly gunzTarPerm extractEntry src/chars.metadata.json
+370 silly gunzTarPerm extractEntry src/injectable.js.map
+371 silly gunzTarPerm extractEntry src/injectable.metadata.json
+372 silly gunzTarPerm extractEntry src/jit/compiler.js
+373 silly gunzTarPerm extractEntry src/jit/compiler_factory.js
+374 silly gunzTarPerm extractEntry src/jit/compiler.d.ts
+375 silly gunzTarPerm extractEntry src/jit/compiler.js.map
+376 silly gunzTarPerm extractEntry src/jit/compiler.metadata.json
+377 silly gunzTarPerm extractEntry src/jit/compiler_factory.d.ts
+378 silly gunzTarPerm extractEntry src/jit/compiler_factory.js.map
+379 silly gunzTarPerm extractEntry src/jit/compiler_factory.metadata.json
+380 silly gunzTarPerm extractEntry src/lifecycle_reflector.d.ts
+381 silly gunzTarPerm extractEntry src/compile_metadata.d.ts
+382 silly gunzTarPerm extractEntry src/lifecycle_reflector.js.map
+383 silly gunzTarPerm extractEntry src/lifecycle_reflector.metadata.json
+384 silly gunzTarPerm extractEntry src/metadata_resolver.d.ts
+385 silly gunzTarPerm extractEntry src/animation/animation_compiler.js
+386 silly gunzTarPerm extractEntry src/animation/animation_ast.js
+387 silly gunzTarPerm extractEntry src/animation/animation_parser.js
+388 silly gunzTarPerm extractEntry src/animation/styles_collection.js
+389 silly gunzTarPerm extractEntry src/animation/animation_parser.d.ts
+390 silly gunzTarPerm extractEntry src/animation/animation_ast.d.ts
+391 silly gunzTarPerm extractEntry src/animation/animation_compiler.js.map
+392 silly gunzTarPerm extractEntry src/animation/animation_compiler.metadata.json
+393 silly gunzTarPerm extractEntry src/animation/animation_ast.js.map
+394 silly gunzTarPerm extractEntry src/animation/animation_ast.metadata.json
+395 silly gunzTarPerm extractEntry src/animation/animation_parser.js.map
+396 silly gunzTarPerm extractEntry src/animation/animation_parser.metadata.json
+397 silly gunzTarPerm extractEntry src/animation/styles_collection.d.ts
+398 silly gunzTarPerm extractEntry src/animation/animation_compiler.d.ts
+399 silly gunzTarPerm extractEntry src/animation/styles_collection.js.map
+400 silly gunzTarPerm extractEntry src/animation/styles_collection.metadata.json
+401 silly gunzTarPerm extractEntry src/metadata_resolver.js.map
+402 silly gunzTarPerm extractEntry src/metadata_resolver.metadata.json
+403 silly gunzTarPerm extractEntry src/ml_parser/xml_tags.js
+404 silly gunzTarPerm extractEntry src/ml_parser/html_tags.js
+405 silly gunzTarPerm extractEntry src/ml_parser/icu_ast_expander.js
+406 silly gunzTarPerm extractEntry src/ml_parser/interpolation_config.js
+407 silly gunzTarPerm extractEntry src/ml_parser/html_parser.js
+408 silly gunzTarPerm extractEntry src/ml_parser/lexer.js
+409 silly gunzTarPerm extractEntry src/ml_parser/parser.js
+410 silly gunzTarPerm extractEntry src/ml_parser/tags.js
+411 silly gunzTarPerm extractEntry src/ml_parser/xml_parser.js
+412 silly gunzTarPerm extractEntry src/ml_parser/ast.js
+413 silly gunzTarPerm extractEntry src/ml_parser/lexer.d.ts
+414 silly gunzTarPerm extractEntry src/ml_parser/html_tags.metadata.json
+415 silly gunzTarPerm extractEntry src/ml_parser/icu_ast_expander.d.ts
+416 silly gunzTarPerm extractEntry src/ml_parser/ast.metadata.json
+417 silly gunzTarPerm extractEntry src/ml_parser/icu_ast_expander.js.map
+418 silly gunzTarPerm extractEntry src/ml_parser/icu_ast_expander.metadata.json
+419 silly gunzTarPerm extractEntry src/ml_parser/interpolation_config.d.ts
+420 silly gunzTarPerm extractEntry src/ml_parser/html_parser.d.ts
+421 silly gunzTarPerm extractEntry src/ml_parser/interpolation_config.js.map
+422 silly gunzTarPerm extractEntry src/ml_parser/interpolation_config.metadata.json
+423 silly gunzTarPerm extractEntry src/ml_parser/ast.d.ts
+424 silly gunzTarPerm extractEntry src/ml_parser/html_parser.js.map
+425 silly gunzTarPerm extractEntry src/ml_parser/lexer.js.map
+426 silly gunzTarPerm extractEntry src/ml_parser/lexer.metadata.json
+427 silly gunzTarPerm extractEntry src/ml_parser/parser.d.ts
+428 silly gunzTarPerm extractEntry src/ml_parser/html_parser.metadata.json
+429 silly gunzTarPerm extractEntry src/ml_parser/parser.js.map
+430 silly gunzTarPerm extractEntry src/ml_parser/parser.metadata.json
+431 silly gunzTarPerm extractEntry src/ml_parser/tags.d.ts
+432 silly gunzTarPerm extractEntry src/ml_parser/html_tags.d.ts
+433 silly gunzTarPerm extractEntry src/ml_parser/tags.js.map
+434 silly gunzTarPerm extractEntry src/ml_parser/tags.metadata.json
+435 silly gunzTarPerm extractEntry src/ml_parser/xml_parser.d.ts
+436 silly gunzTarPerm extractEntry src/ml_parser/ast.js.map
+437 silly gunzTarPerm extractEntry src/ml_parser/xml_parser.js.map
+438 silly gunzTarPerm extractEntry src/ml_parser/xml_parser.metadata.json
+439 silly gunzTarPerm extractEntry src/ml_parser/xml_tags.d.ts
+440 silly gunzTarPerm extractEntry src/ml_parser/html_tags.js.map
+441 silly gunzTarPerm extractEntry src/ml_parser/xml_tags.js.map
+442 silly gunzTarPerm extractEntry src/ml_parser/xml_tags.metadata.json
+443 silly gunzTarPerm extractEntry src/ng_module_compiler.d.ts
+444 silly gunzTarPerm extractEntry src/compile_metadata.js.map
+445 silly gunzTarPerm extractEntry src/ng_module_compiler.js.map
+446 silly gunzTarPerm extractEntry src/ng_module_compiler.metadata.json
+447 silly gunzTarPerm extractEntry src/ng_module_resolver.d.ts
+448 silly gunzTarPerm extractEntry src/compile_metadata.metadata.json
+449 silly gunzTarPerm extractEntry src/aot/summary_serializer.js
+450 silly gunzTarPerm extractEntry src/aot/compiler_host.js
+451 silly gunzTarPerm extractEntry src/aot/compiler_options.js
+452 silly gunzTarPerm extractEntry src/aot/generated_file.js
+453 silly gunzTarPerm extractEntry src/aot/static_reflection_capabilities.js
+454 silly gunzTarPerm extractEntry src/aot/compiler_factory.js
+455 silly gunzTarPerm extractEntry src/aot/static_reflector.js
+456 silly gunzTarPerm extractEntry src/aot/static_symbol.js
+457 silly gunzTarPerm extractEntry src/aot/static_symbol_resolver.js
+458 silly gunzTarPerm extractEntry src/aot/summary_resolver.js
+459 silly gunzTarPerm extractEntry src/aot/compiler.js
+460 silly gunzTarPerm extractEntry src/aot/static_reflection_capabilities.metadata.json
+461 silly gunzTarPerm extractEntry src/aot/compiler.metadata.json
+462 silly gunzTarPerm extractEntry src/aot/compiler_options.js.map
+463 silly gunzTarPerm extractEntry src/aot/generated_file.d.ts
+464 silly gunzTarPerm extractEntry src/aot/compiler_factory.d.ts
+465 silly gunzTarPerm extractEntry src/aot/generated_file.js.map
+466 silly gunzTarPerm extractEntry src/aot/generated_file.metadata.json
+467 silly gunzTarPerm extractEntry src/aot/static_reflection_capabilities.d.ts
+468 silly gunzTarPerm extractEntry src/aot/compiler.d.ts
+469 silly gunzTarPerm extractEntry src/aot/static_reflection_capabilities.js.map
+470 silly gunzTarPerm extractEntry src/aot/compiler_factory.js.map
+471 silly gunzTarPerm extractEntry src/aot/static_reflector.d.ts
+472 silly gunzTarPerm extractEntry src/aot/compiler_factory.metadata.json
+473 silly gunzTarPerm extractEntry src/aot/static_reflector.js.map
+474 silly gunzTarPerm extractEntry src/aot/static_reflector.metadata.json
+475 silly gunzTarPerm extractEntry src/aot/static_symbol.d.ts
+476 silly gunzTarPerm extractEntry src/aot/compiler_host.d.ts
+477 silly gunzTarPerm extractEntry src/aot/static_symbol.js.map
+478 silly gunzTarPerm extractEntry src/aot/static_symbol.metadata.json
+479 silly gunzTarPerm extractEntry src/aot/static_symbol_resolver.d.ts
+480 silly gunzTarPerm extractEntry src/aot/compiler.js.map
+481 silly gunzTarPerm extractEntry src/aot/static_symbol_resolver.js.map
+482 silly gunzTarPerm extractEntry src/aot/static_symbol_resolver.metadata.json
+483 silly gunzTarPerm extractEntry src/aot/summary_resolver.d.ts
+484 silly gunzTarPerm extractEntry src/aot/compiler_host.js.map
+485 silly gunzTarPerm extractEntry src/aot/summary_resolver.js.map
+486 silly gunzTarPerm extractEntry src/aot/summary_resolver.metadata.json
+487 silly gunzTarPerm extractEntry src/aot/summary_serializer.d.ts
+488 silly gunzTarPerm extractEntry src/aot/compiler_options.d.ts
+489 silly gunzTarPerm extractEntry src/aot/summary_serializer.js.map
+490 silly gunzTarPerm extractEntry src/aot/summary_serializer.metadata.json
+491 silly gunzTarPerm extractEntry src/ng_module_resolver.metadata.json
+492 silly gunzTarPerm extractEntry src/output/abstract_js_emitter.js
+493 silly gunzTarPerm extractEntry src/output/class_builder.js
+494 silly gunzTarPerm extractEntry src/output/output_ast.js
+495 silly gunzTarPerm extractEntry src/output/output_interpreter.js
+496 silly gunzTarPerm extractEntry src/output/abstract_emitter.js
+497 silly gunzTarPerm extractEntry src/output/output_jit.js
+498 silly gunzTarPerm extractEntry src/output/path_util.js
+499 silly gunzTarPerm extractEntry src/output/ts_emitter.js
+500 silly gunzTarPerm extractEntry src/output/value_util.js
+501 silly gunzTarPerm extractEntry src/output/output_interpreter.js.map
+502 silly gunzTarPerm extractEntry src/output/class_builder.js.map
+503 silly gunzTarPerm extractEntry src/output/class_builder.metadata.json
+504 silly gunzTarPerm extractEntry src/output/output_ast.d.ts
+505 silly gunzTarPerm extractEntry src/output/abstract_emitter.metadata.json
+506 silly gunzTarPerm extractEntry src/output/output_ast.js.map
+507 silly gunzTarPerm extractEntry src/output/output_ast.metadata.json
+508 silly gunzTarPerm extractEntry src/output/output_interpreter.d.ts
+509 silly gunzTarPerm extractEntry src/output/abstract_js_emitter.d.ts
+510 silly gunzTarPerm extractEntry src/output/abstract_emitter.d.ts
+511 silly gunzTarPerm extractEntry src/output/output_interpreter.metadata.json
+512 silly gunzTarPerm extractEntry src/output/output_jit.d.ts
+513 silly gunzTarPerm extractEntry src/output/abstract_js_emitter.js.map
+514 silly gunzTarPerm extractEntry src/output/output_jit.js.map
+515 silly gunzTarPerm extractEntry src/output/output_jit.metadata.json
+516 silly gunzTarPerm extractEntry src/output/path_util.d.ts
+517 silly gunzTarPerm extractEntry src/output/abstract_js_emitter.metadata.json
+518 silly gunzTarPerm extractEntry src/output/path_util.js.map
+519 silly gunzTarPerm extractEntry src/output/path_util.metadata.json
+520 silly gunzTarPerm extractEntry src/output/ts_emitter.d.ts
+521 silly gunzTarPerm extractEntry src/output/class_builder.d.ts
+522 silly gunzTarPerm extractEntry src/output/ts_emitter.js.map
+523 silly gunzTarPerm extractEntry src/output/ts_emitter.metadata.json
+524 silly gunzTarPerm extractEntry src/output/value_util.d.ts
+525 silly gunzTarPerm extractEntry src/output/abstract_emitter.js.map
+526 silly gunzTarPerm extractEntry src/output/value_util.js.map
+527 silly gunzTarPerm extractEntry src/output/value_util.metadata.json
+528 silly gunzTarPerm extractEntry src/parse_util.d.ts
+529 silly gunzTarPerm extractEntry src/compiler_util/expression_converter.js
+530 silly gunzTarPerm extractEntry src/compiler_util/binding_util.js
+531 silly gunzTarPerm extractEntry src/compiler_util/identifier_util.js
+532 silly gunzTarPerm extractEntry src/compiler_util/render_util.js
+533 silly gunzTarPerm extractEntry src/compiler_util/identifier_util.d.ts
+534 silly gunzTarPerm extractEntry src/compiler_util/binding_util.d.ts
+535 silly gunzTarPerm extractEntry src/compiler_util/expression_converter.js.map
+536 silly gunzTarPerm extractEntry src/compiler_util/expression_converter.metadata.json
+537 silly gunzTarPerm extractEntry src/compiler_util/binding_util.js.map
+538 silly gunzTarPerm extractEntry src/compiler_util/binding_util.metadata.json
+539 silly gunzTarPerm extractEntry src/compiler_util/identifier_util.js.map
+540 silly gunzTarPerm extractEntry src/compiler_util/identifier_util.metadata.json
+541 silly gunzTarPerm extractEntry src/compiler_util/render_util.d.ts
+542 silly gunzTarPerm extractEntry src/compiler_util/expression_converter.d.ts
+543 silly gunzTarPerm extractEntry src/compiler_util/render_util.js.map
+544 silly gunzTarPerm extractEntry src/compiler_util/render_util.metadata.json
+545 silly gunzTarPerm extractEntry src/parse_util.js.map
+546 silly gunzTarPerm extractEntry src/parse_util.metadata.json
+547 silly gunzTarPerm extractEntry src/pipe_resolver.d.ts
+548 silly gunzTarPerm extractEntry src/config.d.ts
+549 silly gunzTarPerm extractEntry src/pipe_resolver.js.map
+550 silly gunzTarPerm extractEntry src/pipe_resolver.metadata.json
+551 silly gunzTarPerm extractEntry src/private_import_core.d.ts
+552 silly gunzTarPerm extractEntry src/assertions.js.map
+553 silly gunzTarPerm extractEntry src/private_import_core.js.map
+554 silly gunzTarPerm extractEntry src/private_import_core.metadata.json
+555 silly gunzTarPerm extractEntry src/provider_analyzer.d.ts
+556 silly gunzTarPerm extractEntry src/config.js.map
+557 silly gunzTarPerm extractEntry src/provider_analyzer.js.map
+558 silly gunzTarPerm extractEntry src/provider_analyzer.metadata.json
+559 silly gunzTarPerm extractEntry src/resource_loader.d.ts
+560 silly gunzTarPerm extractEntry src/config.metadata.json
+561 silly gunzTarPerm extractEntry src/resource_loader.js.map
+562 silly gunzTarPerm extractEntry src/resource_loader.metadata.json
+563 silly gunzTarPerm extractEntry src/schema/dom_security_schema.js
+564 silly gunzTarPerm extractEntry src/schema/dom_element_schema_registry.js
+565 silly gunzTarPerm extractEntry src/schema/element_schema_registry.js
+566 silly gunzTarPerm extractEntry src/schema/dom_security_schema.js.map
+567 silly gunzTarPerm extractEntry src/schema/dom_security_schema.d.ts
+568 silly gunzTarPerm extractEntry src/schema/dom_element_schema_registry.d.ts
+569 silly gunzTarPerm extractEntry src/schema/dom_element_schema_registry.js.map
+570 silly gunzTarPerm extractEntry src/schema/dom_security_schema.metadata.json
+571 silly gunzTarPerm extractEntry src/schema/element_schema_registry.d.ts
+572 silly gunzTarPerm extractEntry src/schema/dom_element_schema_registry.metadata.json
+573 silly gunzTarPerm extractEntry src/schema/element_schema_registry.js.map
+574 silly gunzTarPerm extractEntry src/schema/element_schema_registry.metadata.json
+575 silly gunzTarPerm extractEntry src/selector.d.ts
+576 silly gunzTarPerm extractEntry src/directive_normalizer.d.ts
+577 silly gunzTarPerm extractEntry src/selector.js.map
+578 silly gunzTarPerm extractEntry src/selector.metadata.json
+579 silly gunzTarPerm extractEntry src/shadow_css.d.ts
+580 silly gunzTarPerm extractEntry src/assertions.metadata.json
+581 silly gunzTarPerm extractEntry src/shadow_css.js.map
+582 silly gunzTarPerm extractEntry src/shadow_css.metadata.json
+583 silly gunzTarPerm extractEntry src/style_compiler.d.ts
+584 silly gunzTarPerm extractEntry src/directive_normalizer.js.map
+585 silly gunzTarPerm extractEntry src/style_compiler.js.map
+586 silly gunzTarPerm extractEntry src/style_compiler.metadata.json
+587 silly gunzTarPerm extractEntry src/style_url_resolver.d.ts
+588 silly gunzTarPerm extractEntry src/directive_normalizer.metadata.json
+589 silly gunzTarPerm extractEntry src/style_url_resolver.js.map
+590 silly gunzTarPerm extractEntry src/style_url_resolver.metadata.json
+591 silly gunzTarPerm extractEntry src/summary_resolver.d.ts
+592 silly gunzTarPerm extractEntry src/directive_resolver.d.ts
+593 silly gunzTarPerm extractEntry src/summary_resolver.js.map
+594 silly gunzTarPerm extractEntry src/summary_resolver.metadata.json
+595 silly gunzTarPerm extractEntry src/template_parser/template_ast.js
+596 silly gunzTarPerm extractEntry src/template_parser/binding_parser.js
+597 silly gunzTarPerm extractEntry src/template_parser/template_parser.js
+598 silly gunzTarPerm extractEntry src/template_parser/template_preparser.js
+599 silly gunzTarPerm extractEntry src/template_parser/template_parser.d.ts
+600 silly gunzTarPerm extractEntry src/template_parser/binding_parser.d.ts
+601 silly gunzTarPerm extractEntry src/template_parser/template_ast.js.map
+602 silly gunzTarPerm extractEntry src/template_parser/template_ast.metadata.json
+603 silly gunzTarPerm extractEntry src/template_parser/binding_parser.js.map
+604 silly gunzTarPerm extractEntry src/template_parser/binding_parser.metadata.json
+605 silly gunzTarPerm extractEntry src/template_parser/template_parser.js.map
+606 silly gunzTarPerm extractEntry src/template_parser/template_parser.metadata.json
+607 silly gunzTarPerm extractEntry src/template_parser/template_preparser.d.ts
+608 silly gunzTarPerm extractEntry src/template_parser/template_ast.d.ts
+609 silly gunzTarPerm extractEntry src/template_parser/template_preparser.js.map
+610 silly gunzTarPerm extractEntry src/template_parser/template_preparser.metadata.json
+611 silly gunzTarPerm extractEntry src/url_resolver.d.ts
+612 silly gunzTarPerm extractEntry src/chars.d.ts
+613 silly gunzTarPerm extractEntry src/url_resolver.js.map
+614 silly gunzTarPerm extractEntry src/url_resolver.metadata.json
+615 silly gunzTarPerm extractEntry src/util.d.ts
+616 silly gunzTarPerm extractEntry src/directive_resolver.js.map
+617 silly gunzTarPerm extractEntry src/util.js.map
+618 silly gunzTarPerm extractEntry src/util.metadata.json
+619 silly gunzTarPerm extractEntry src/version.d.ts
+620 silly gunzTarPerm extractEntry src/directive_resolver.metadata.json
+621 silly gunzTarPerm extractEntry src/version.js.map
+622 silly gunzTarPerm extractEntry src/version.metadata.json
+623 silly gunzTarPerm extractEntry src/view_compiler/view_compiler.js
+624 silly gunzTarPerm extractEntry src/view_compiler/compile_view.js
+625 silly gunzTarPerm extractEntry src/view_compiler/constants.js
+626 silly gunzTarPerm extractEntry src/view_compiler/deps.js
+627 silly gunzTarPerm extractEntry src/view_compiler/event_binder.js
+628 silly gunzTarPerm extractEntry src/view_compiler/compile_query.js
+629 silly gunzTarPerm extractEntry src/view_compiler/lifecycle_binder.js
+630 silly gunzTarPerm extractEntry src/view_compiler/property_binder.js
+631 silly gunzTarPerm extractEntry src/view_compiler/query_binder.js
+632 silly gunzTarPerm extractEntry src/view_compiler/util.js
+633 silly gunzTarPerm extractEntry src/view_compiler/view_binder.js
+634 silly gunzTarPerm extractEntry src/view_compiler/compile_pipe.js
+635 silly gunzTarPerm extractEntry src/view_compiler/view_builder.js
+636 silly gunzTarPerm extractEntry src/view_compiler/compile_method.js
+637 silly gunzTarPerm extractEntry src/view_compiler/compile_element.js
+638 silly gunzTarPerm extractEntry src/view_compiler/event_binder.js.map
+639 silly gunzTarPerm extractEntry src/view_compiler/compile_view.d.ts
+640 silly gunzTarPerm extractEntry src/view_compiler/compile_method.d.ts
+641 silly gunzTarPerm extractEntry src/view_compiler/compile_view.js.map
+642 silly gunzTarPerm extractEntry src/view_compiler/compile_view.metadata.json
+643 silly gunzTarPerm extractEntry src/view_compiler/constants.d.ts
+644 silly gunzTarPerm extractEntry src/view_compiler/compile_element.d.ts
+645 silly gunzTarPerm extractEntry src/view_compiler/constants.js.map
+646 silly gunzTarPerm extractEntry src/view_compiler/constants.metadata.json
+647 silly gunzTarPerm extractEntry src/view_compiler/deps.d.ts
+648 silly gunzTarPerm extractEntry src/view_compiler/compile_method.js.map
+649 silly gunzTarPerm extractEntry src/view_compiler/deps.js.map
+650 silly gunzTarPerm extractEntry src/view_compiler/deps.metadata.json
+651 silly gunzTarPerm extractEntry src/view_compiler/event_binder.d.ts
+652 silly gunzTarPerm extractEntry src/view_compiler/compile_method.metadata.json
+653 silly gunzTarPerm extractEntry src/view_compiler/compile_pipe.d.ts
+654 silly gunzTarPerm extractEntry src/view_compiler/event_binder.metadata.json
+655 silly gunzTarPerm extractEntry src/view_compiler/lifecycle_binder.d.ts
+656 silly gunzTarPerm extractEntry src/view_compiler/compile_element.js.map
+657 silly gunzTarPerm extractEntry src/view_compiler/lifecycle_binder.js.map
+658 silly gunzTarPerm extractEntry src/view_compiler/lifecycle_binder.metadata.json
+659 silly gunzTarPerm extractEntry src/view_compiler/property_binder.d.ts
+660 silly gunzTarPerm extractEntry src/view_compiler/compile_pipe.js.map
+661 silly gunzTarPerm extractEntry src/view_compiler/property_binder.js.map
+662 silly gunzTarPerm extractEntry src/view_compiler/property_binder.metadata.json
+663 silly gunzTarPerm extractEntry src/view_compiler/query_binder.d.ts
+664 silly gunzTarPerm extractEntry src/view_compiler/compile_pipe.metadata.json
+665 silly gunzTarPerm extractEntry src/view_compiler/query_binder.js.map
+666 silly gunzTarPerm extractEntry src/view_compiler/query_binder.metadata.json
+667 silly gunzTarPerm extractEntry src/view_compiler/util.d.ts
+668 silly gunzTarPerm extractEntry src/view_compiler/compile_query.d.ts
+669 silly gunzTarPerm extractEntry src/view_compiler/util.js.map
+670 silly gunzTarPerm extractEntry src/view_compiler/util.metadata.json
+671 silly gunzTarPerm extractEntry src/view_compiler/view_binder.d.ts
+672 silly gunzTarPerm extractEntry src/view_compiler/compile_element.metadata.json
+673 silly gunzTarPerm extractEntry src/view_compiler/view_binder.js.map
+674 silly gunzTarPerm extractEntry src/view_compiler/view_binder.metadata.json
+675 silly gunzTarPerm extractEntry src/view_compiler/view_builder.d.ts
+676 silly gunzTarPerm extractEntry src/view_compiler/compile_query.js.map
+677 silly gunzTarPerm extractEntry src/view_compiler/view_builder.js.map
+678 silly gunzTarPerm extractEntry src/view_compiler/view_builder.metadata.json
+679 silly gunzTarPerm extractEntry src/view_compiler/view_compiler.d.ts
+680 silly gunzTarPerm extractEntry src/view_compiler/compile_query.metadata.json
+681 silly gunzTarPerm extractEntry src/view_compiler/view_compiler.js.map
+682 silly gunzTarPerm extractEntry src/view_compiler/view_compiler.metadata.json
+683 silly gunzTarPerm extractEntry testing/package.json
+684 silly gunzTarPerm extractEntry testing/index.js
+685 silly gunzTarPerm extractEntry testing/metadata_overrider.js
+686 silly gunzTarPerm extractEntry testing/ng_module_resolver_mock.js
+687 silly gunzTarPerm extractEntry testing/directive_resolver_mock.js
+688 silly gunzTarPerm extractEntry testing/pipe_resolver_mock.js
+689 silly gunzTarPerm extractEntry testing/private_import_core.js
+690 silly gunzTarPerm extractEntry testing/schema_registry_mock.js
+691 silly gunzTarPerm extractEntry testing/ng_module_resolver_mock.js.map
+692 silly gunzTarPerm extractEntry testing/metadata_overrider.d.ts
+693 silly gunzTarPerm extractEntry testing/directive_resolver_mock.js.map
+694 silly gunzTarPerm extractEntry testing/metadata_overrider.js.map
+695 silly gunzTarPerm extractEntry testing/metadata_overrider.metadata.json
+696 silly gunzTarPerm extractEntry testing/ng_module_resolver_mock.d.ts
+697 silly gunzTarPerm extractEntry testing/directive_resolver_mock.metadata.json
+698 silly gunzTarPerm extractEntry testing/facade/lang.js
+699 silly gunzTarPerm extractEntry testing/facade/lang.d.ts
+700 silly gunzTarPerm extractEntry testing/facade/lang.js.map
+701 silly gunzTarPerm extractEntry testing/facade/lang.metadata.json
+702 silly gunzTarPerm extractEntry testing/ng_module_resolver_mock.metadata.json
+703 silly gunzTarPerm extractEntry testing/index.d.ts
+704 silly gunzTarPerm extractEntry testing/pipe_resolver_mock.d.ts
+705 silly gunzTarPerm extractEntry testing/directive_resolver_mock.d.ts
+706 silly gunzTarPerm extractEntry testing/pipe_resolver_mock.js.map
+707 silly gunzTarPerm extractEntry testing/pipe_resolver_mock.metadata.json
+708 silly gunzTarPerm extractEntry testing/private_import_core.d.ts
+709 silly gunzTarPerm extractEntry testing/index.js.map
+710 silly gunzTarPerm extractEntry testing/private_import_core.js.map
+711 silly gunzTarPerm extractEntry testing/private_import_core.metadata.json
+712 silly gunzTarPerm extractEntry testing/schema_registry_mock.d.ts
+713 silly gunzTarPerm extractEntry testing/index.metadata.json
+714 silly gunzTarPerm extractEntry testing/schema_registry_mock.js.map
+715 silly gunzTarPerm extractEntry testing/schema_registry_mock.metadata.json
+716 verbose write writing to /Users/kellygarskemoore/angular2-seed/node_modules/@angular/compiler/package.json
+717 info preinstall @angular/compiler@2.4.7
+718 verbose readDependencies loading dependencies from /Users/kellygarskemoore/angular2-seed/node_modules/@angular/compiler/package.json
+719 verbose readDependencies loading dependencies from /Users/kellygarskemoore/angular2-seed/node_modules/@angular/compiler/package.json
+720 silly install resolved []
+721 verbose about to build /Users/kellygarskemoore/angular2-seed/node_modules/@angular/compiler
+722 info build /Users/kellygarskemoore/angular2-seed/node_modules/@angular/compiler
+723 info linkStuff @angular/compiler@2.4.7
+724 silly linkStuff @angular/compiler@2.4.7 has /Users/kellygarskemoore/angular2-seed/node_modules as its parent node_modules
+725 verbose linkBins @angular/compiler@2.4.7
+726 verbose linkMans @angular/compiler@2.4.7
+727 verbose rebuildBundles @angular/compiler@2.4.7
+728 info install @angular/compiler@2.4.7
+729 info postinstall @angular/compiler@2.4.7
+730 verbose unlock done using /Users/kellygarskemoore/.npm/_locks/angular-compiler-a3baf191063062e0.lock for /Users/kellygarskemoore/angular2-seed/node_modules/@angular/compiler
+731 verbose unlock done using /Users/kellygarskemoore/.npm/_locks/angular-platform-browser-6044161f7d799d9e.lock for /Users/kellygarskemoore/angular2-seed/node_modules/@angular/platform-browser-dynamic
+732 verbose validateInstall loading /Users/kellygarskemoore/angular2-seed/package.json for validation
+733 verbose stack Error: The package rxjs@5.0.0-beta.2 does not satisfy its siblings' peerDependencies requirements!
+733 verbose stack     at /usr/local/lib/node_modules/npm/lib/install.js:125:32
+733 verbose stack     at /usr/local/lib/node_modules/npm/lib/install.js:268:7
+733 verbose stack     at /usr/local/lib/node_modules/npm/node_modules/read-installed/read-installed.js:142:5
+733 verbose stack     at /usr/local/lib/node_modules/npm/node_modules/read-installed/read-installed.js:263:14
+733 verbose stack     at cb (/usr/local/lib/node_modules/npm/node_modules/slide/lib/async-map.js:47:24)
+733 verbose stack     at /usr/local/lib/node_modules/npm/node_modules/read-installed/read-installed.js:263:14
+733 verbose stack     at cb (/usr/local/lib/node_modules/npm/node_modules/slide/lib/async-map.js:47:24)
+733 verbose stack     at /usr/local/lib/node_modules/npm/node_modules/read-installed/read-installed.js:263:14
+733 verbose stack     at cb (/usr/local/lib/node_modules/npm/node_modules/slide/lib/async-map.js:47:24)
+733 verbose stack     at /usr/local/lib/node_modules/npm/node_modules/read-installed/read-installed.js:263:14
+734 verbose cwd /Users/kellygarskemoore/angular2-seed
+735 error Darwin 16.4.0
+736 error argv "/usr/local/Cellar/node/4.2.1/bin/node" "/usr/local/bin/npm" "i" "@angular/platform-browser-dynamic"
+737 error node v4.2.1
+738 error npm  v2.14.7
+739 error code EPEERINVALID
+740 error peerinvalid The package rxjs@5.0.0-beta.2 does not satisfy its siblings' peerDependencies requirements!
+740 error peerinvalid Peer angular2@2.0.0-beta.7 wants rxjs@5.0.0-beta.2
+740 error peerinvalid Peer @angular/core@2.4.7 wants rxjs@^5.0.1
+741 verbose exit [ 1, true ]
